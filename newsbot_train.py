@@ -19,7 +19,7 @@ from sklearn.metrics import accuracy_score,classification_report
 
 #Load JSON Dataset
 
-file = "/content/News_Category_Dataset_v3.json"
+file = "News_Category_Dataset_v3.json"
 
 data = []
 with open(file, 'r') as f:
