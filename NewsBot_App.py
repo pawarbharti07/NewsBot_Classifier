@@ -3,8 +3,8 @@ import joblib
 import spacy
 
 # Load model + vectorizer
-model = joblib.load(open("C:/Users/admin/Downloads/logistic_model.pkl", "rb"))
-vectorizer = joblib.load(open("C:/Users/admin/Downloads/vectorizer_model.pkl", "rb"))
+model = joblib.load(open("logistic_model.pkl", "rb"))
+vectorizer = joblib.load(open("vectorizer_model.pkl", "rb"))
 
 # Load spacy
 nlp = spacy.load("en_core_web_sm", disable=["parser", "ner"])
